@@ -6,7 +6,7 @@
 
 A comprehensive framework for comparing traditional machine learning and Large Language Model (LLM) approaches to text classification using the EurLex-57K legal documents dataset.
 
-## 📊 Project Overview
+##  Project Overview
 
 This project provides a detailed analysis and comparison of:
 - **Traditional ML**: TF-IDF vectorization with Logistic Regression
@@ -14,14 +14,14 @@ This project provides a detailed analysis and comparison of:
 
 ### Key Features
 
-- 🚀 Modular architecture with clean separation of concerns
-- 📈 Comprehensive performance metrics (accuracy, F1-score, speed, cost)
-- 🎨 Beautiful visualizations for results comparison
-- 🔧 Easy configuration via environment variables
-- 📝 Detailed logging and error handling
-- 🌐 Support for multiple LLM providers (Groq, OpenAI)
+-  Modular architecture with clean separation of concerns
+-  Comprehensive performance metrics (accuracy, F1-score, speed, cost)
+-  Beautiful visualizations for results comparison
+-  Easy configuration via environment variables
+-  Detailed logging and error handling
+-  Support for multiple LLM providers (Groq, OpenAI)
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 text-classification-analysis/
@@ -43,7 +43,7 @@ text-classification-analysis/
 └── FINAL_REPORT.md      # Detailed analysis report
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ python main.py --mode compare
 python main.py --visualize
 ```
 
-## 📖 Detailed Documentation
+## Detailed Documentation
 
 ### Configuration Options
 
@@ -172,7 +172,7 @@ predictions = llm.classify_zero_shot(texts)
 metrics = llm.evaluate(predictions, true_labels)
 ```
 
-## 📊 Results Summary
+##  Results Summary
 
 Based on our analysis of the EurLex-57K dataset:
 
@@ -187,7 +187,7 @@ Based on our analysis of the EurLex-57K dataset:
 - LLMs struggle with the specific binary classification task
 - Hybrid approaches may offer the best balance
 
-## 🧪 Testing
+##  Testing
 
 Run the test suite:
 ```bash
@@ -199,7 +199,7 @@ Run with coverage:
 pytest --cov=src tests/
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -223,21 +223,14 @@ flake8 src/
 mypy src/
 ```
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [EurLex-57K Dataset](https://huggingface.co/datasets/pietrolesci/eurlex-57k) by Pietro Lesci
 - [Groq](https://groq.com/) for LLM API access
 - [scikit-learn](https://scikit-learn.org/) for ML algorithms
 - [Hugging Face](https://huggingface.co/) for dataset hosting
 
-## 📮 Contact
-
-For questions or feedback, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Made with ❤️ for the ML community 
